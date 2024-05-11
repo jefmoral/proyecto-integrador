@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.nav{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+header{
+    background-color: aqua;
+}
+
+main{
+    background-color: rgb(255, 63, 63);
+}
+
+footer{
+    background-color: aqua;
+}
+
+h1, h2, .nav{
+    background-color: black;
+    color: aliceblue;
+}
+
+.nav{
+    font-size:xx-large;
+    color: aliceblue;
+}
+
+.row{
+    display: flex;
+    height: 500px;
+}
+
+.row1{
+    display: flex;
+    height: 400px;
+}
+
+.izquierda{
+    background-color: brown;
+    width: 40%;
+}
+
+.derecha{
+    background-color:blue;
+    width: 60%;
+}
+
+.logo img{
+    width: 140px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.blog1{
+    background-color: chartreuse;
+}
+
+.blog2{
+    background-color: blue;
+}
+
+.blog3{
+    background-color: yellow;
+}
+
+a{text-decoration:none}
+
